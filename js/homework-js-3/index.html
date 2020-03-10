@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework-3-js</title>
+</head>
+<body>
+<script>
+/* 1. Функции являются набором команд, которые выполняют ту или иную задачу (или производит вычисление).
+Одна и та же функция может быть вызвана в разных частях программы, что отпимизирует написание кода, а так же исключает
+повторение его написания.
+  2. Аргумент необходимо задавать функции для того, чтобы можмно было использовать значение этого параметра
+   внутри функции, а затем возвратить результат, что в свою очередь делает код более чистым.
+
+ */
+    let userNumber1;
+    do {
+        userNumber1 = +prompt("Введите число 1");
+    }
+    while (isNaN(userNumber1) || !Number.isInteger(userNumber1))
+    let userNumber2;
+    do{
+        userNumber2 = +prompt("Введите число 2");
+    }
+    while (isNaN(userNumber2) || !Number.isInteger(userNumber2))
+    const userOperator=prompt("Введите математический оператор");
+    function calcResult(a,b,operator) {
+        switch (operator) {
+            case("+"):
+                return a+b;
+            case("-"):
+                return a-b;
+            case("*"):
+                return a*b;
+            case ("/"):
+                if ( b !==0 ){
+                    return a/b;
+                }
+            default:
+                return ("Вы не ввели значения");
+        }
+    }
+    console.log(calcResult(userNumber1, userNumber2,userOperator));
+
+
+
+</script>
+</body>
+</html>
