@@ -1,0 +1,254 @@
+/*CONTAINER*/
+.container {
+    width: 1165px;
+    padding: 22px 24px;
+    background-color: #3a4965;
+    font-family: 'Arimo', sans-serif;
+    color: #484848;
+}
+/*TABLE*/
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border: solid 1px #d9d9d9;
+}
+
+tr {
+    border: solid 1px #d9d9d9;
+}
+
+td {
+    border: solid 1px #d9d9d9;
+    box-shadow: -0.5px 0 5px #e3e3e3;
+}
+
+.pricing-plan {
+    width: 310px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-weight: bold;
+    background-color: #ffffff;
+    line-height: 36px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.plan {
+    width: 277px;
+    text-transform: uppercase;
+    padding: 25px 72px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.standart {
+    background-color: #89c331;
+    font-size: 24px;
+    color: #ffffff;
+    border: solid 1px #89c331;
+}
+
+.ultimate {
+    background-color: #f04a56;
+    font-size: 30px;
+    color: #ffffff;
+    border: solid 1px #f04a56;
+}
+
+.premium {
+    background-color: #20807c;
+    font-size: 24px;
+    color: #ffffff;
+    border: solid 1px #20807c;
+}
+
+.price {
+    font-size: 16px;
+    padding: 18px 33px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font-weight: bold;
+    position: relative;
+}
+
+.price-low p {
+    position: absolute;
+    right: 64px;
+    top: 54px;
+}
+
+.price-mid p {
+    position: absolute;
+    right: 77px;
+    top: 54px;
+}
+
+.price-up p {
+    position: absolute;
+    right: 59px;
+    top: 54px;
+}
+
+.integer {
+    font-size: 60px;
+}
+
+.fraction {
+    font-size: 24px;
+    vertical-align: super;
+}
+
+.price::before {
+    content: "	\0024";
+    display: inline-block;
+    font-size: 60px;
+    color: #484848;
+}
+
+.value {
+    font-size: 16px;
+    padding: 27px 0;
+    background-color: #f2f2f2;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fa-archive {
+    margin-right: 12px;
+    color: #848484;
+}
+
+.fa-cloud-download-alt {
+    margin-right: 14px;
+    color: #848484;
+}
+
+.possibility {
+    font-size: 16px;
+    padding: 28px 0;
+    background-color: #e3e3e3;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.email-possibility {
+    padding: 28px 0;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+}
+
+.fa-envelope {
+    margin-right: 12px;
+    color: #848484;
+}
+
+.support {
+    font-size: 16px;
+    padding: 28px 0;
+    background-color: #e3e3e3;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fa-life-ring {
+    margin-right: 13px;
+    color: #848484;
+}
+
+.products {
+    font-size: 16px;
+    padding: 28px 0;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+}
+
+.fa-cube {
+    margin-right: 8px;
+    color: #848484;
+}
+
+.users {
+    font-size: 16px;
+    padding: 28px 0;
+    background-color: #e3e3e3;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.fa-users {
+    margin-right: 12px;
+    color: #848484;
+}
+
+.footer-menu {
+    box-sizing: border-box;
+    padding: 44px 30px;
+    background-color: #eeeeee;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-us {
+    background-color: #dddddd;
+}
+
+.btn {
+    padding: 17px 45px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+
+}
+.btn::after{
+    content: "";
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    bottom: 0;
+    left: 0;
+}
+.btn:hover{
+    background-color: powderblue;
+}
+
+/*FOOTER*/
+.footer-menu-ultimate {
+    background-color: #f4f4f4;
+    color: #848484;
+}
+
+.contact-us-btn {
+    background-color: #484848;
+}
+
+
+.buy-standart-btn {
+    background-color: #89c331;
+}
+
+.buy-ultimate-btn {
+    background-color: #f04a56;
+}
+
+.buy-premium-btn {
+    background-color: #20807c;
+}
